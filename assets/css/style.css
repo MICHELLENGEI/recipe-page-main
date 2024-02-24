@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/* // <uniquifier>: Use a uniquifier for the class name */
-/* // <weight>: Use a value from 100 to 900 */
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap') .outfit {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
 
 body {
   padding: 40px 60px;
@@ -32,7 +22,11 @@ body {
   color: #2f2e2c;
   font-family: 'young serif' sans-serif;
 }
-
+@media (max-width:375px) {
+  .top-header {
+    font-size: 62px;
+  }
+}
 .paragraph {
   color: #625e5c;
   font-size: 16px;
