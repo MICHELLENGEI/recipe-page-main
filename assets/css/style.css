@@ -22,9 +22,9 @@ body {
   color: #2f2e2c;
   font-family: 'young serif' sans-serif;
 }
-@media (max-width:375px) {
+@media  screen and (min-width:375px) {
   .top-header {
-    font-size: 62px;
+    font-size: 32px;
   }
 }
 .paragraph {
