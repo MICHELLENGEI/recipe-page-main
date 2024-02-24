@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* // <uniquifier>: Use a uniquifier for the class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap') .outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  padding: 40px 60px;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-img {
+  border-radius: 16px;
+  width: 100%;
+  object-fit: cover;
+  height: 550px;
+}
+
+.top-header {
+  font-size: 72px;
+  color: #2f2e2c;
+  font-family: 'young serif' sans-serif;
+}
+
+.paragraph {
+  color: #625e5c;
+  font-size: 16px;
+}
+
+.preparationTime {
+  background-color: #fff7fc;
+  border-radius: 16px;
+  padding: 10px 0px;
+}
+
+.prepTime {
+  color: #78435a;
+  font-family: 'young serif';
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.prepListItem {
+  margin-top: 10px;
+  color: #5d544f;
+  margin-left: 20px;
+}
+
+
+.ingredients,
+.instructions,
+.nutrition {
+  color: #683c2d;
+  font-size: 32px;
+  font-family: 'young serif' sans-serif;
+  font-weight: bold;
+}
+
+.ingredListItem {
+  margin: 10px 0;
+  color: #683c2d;
+}
+
+span {
+  color: #534b47;
+}
+
+.borderBottom{
+  border-bottom: 1px solid #33333371;
+}
+
+.instructionsList {
+  color: #683c2d;
+}
+
+.instructionsList strong {
+  color: #534b47;
+}
+.instructionsListItem{
+  margin: 20px 0;
+}
+table{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.name{
+  color: #534b47;
+  padding: 20px;
+  width: 50vw;
+  border-bottom: 1px solid #33333371;
+}
+.weight{
+  color: #683c2d;
+  font-family: 'young serif';
+  padding: 20px;
+  width: 50vw;
+  border-bottom: 1px solid #33333371;
+}
+.attribution {
+  padding: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
